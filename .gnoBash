@@ -1,5 +1,5 @@
 
 gno() {
   dir=${pwd}
-  cd ~/Code/gno/ && printf '## %s\n %s\n' "$1" "$2" >> README.md && git commit -a -m "$1" && git push origin master && cd ${dir}
+  cd ~/Code/gno/ && printf '## %s\n %s\n' "$1" "$2" >> README.md && git add README.md && git commit -m "$1" && git push origin master && cd ${dir}
 }
