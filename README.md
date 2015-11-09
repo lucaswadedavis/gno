@@ -9,3 +9,5 @@ The command above will add a new note to this readme file commit the changes and
  Gets shown to 700K users worldwide
 ## API Boilerplate
  A node server boilerplate that handles API Keys and Secret Keys per user for a generic API - maybe use a flat JSON file as dummy data.
+## Build a new version of contrarian with Magog and Gridstack.
+ 
